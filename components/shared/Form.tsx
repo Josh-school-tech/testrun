@@ -33,7 +33,7 @@ const PromptForm = ({ userId, promptDetails, type, promptID }: PromptFormProps) 
   const [tags, setTags] = useState<string[]>([])
   const [formSubmitted, setFormSubmitted] = useState(false);
     const [inputValue, setInputValue] = useState('') // Step 1: Track the input value
-
+    console.log(initialVlues)
     const HandleChange = () => {
         if (inputValue.trim()) { // Check if the input value is not just whitespace
             
